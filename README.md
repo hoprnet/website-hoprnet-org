@@ -1,2 +1,1 @@
-# hopr-website
-Website of HOPR
+WORK IN PROGRESS
