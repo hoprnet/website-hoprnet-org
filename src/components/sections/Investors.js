@@ -74,27 +74,27 @@ class Investors extends React.Component {
                   />
                 </a>
               </li>
+              <li className="reveal-from-bottom" data-reveal-delay="150">
+                <a href="https://twitter.com/fcslabs" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={require('./../../assets/images/partners/focus_labs.png')}
+                    alt="FocusLabs Logo"
+                    width={80}
+                    height={24}
+                  />
+                </a>
+              </li>
+              <li className="reveal-from-bottom" data-reveal-delay="150">
+                <a href="http://caballeroscapital.com/" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={require('./../../assets/images/partners/caballeros_capital.png')}
+                    alt="Caballeros Capital Logo"
+                    width={200}
+                    height={24}
+                  />
+                </a>
+              </li>
               {/* <li className="reveal-from-bottom" data-reveal-delay="150">
-                <a href="https://www.hbl.ch/de/" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={require('./../../assets/images/partners/hbl.png')}
-                    alt="HBL Logo"
-                    width={124}
-                    height={24}
-                  />
-                </a>
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="150">
-                <a href="https://www.froriep.com/de/" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={require('./../../assets/images/partners/froriep.png')}
-                    alt="Froriep Logo"
-                    width={124}
-                    height={24}
-                  />
-                </a>
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.bitcoinsuisse.com/" target="_blank" rel="noopener noreferrer">
                   <Image
                     src={require('./../../assets/images/partners/bitcoinsuisse.png')}
