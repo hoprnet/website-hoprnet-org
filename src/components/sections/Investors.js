@@ -42,6 +42,8 @@ class Investors extends React.Component {
       bottomDivider && 'has-bottom-divider'
     )
 
+    const imgClasses = classNames(invertColor ? 'img-to-white' : 'img-to-black')
+
     return (
       <section {...props} className={outerClasses}>
         <div className="container">
@@ -59,6 +61,7 @@ class Investors extends React.Component {
                   <Image
                     src={require('./../../assets/images/partners/binance.svg')}
                     alt="Binance Logo"
+                    className={imgClasses}
                     width={124}
                     height={24}
                   />
@@ -69,6 +72,7 @@ class Investors extends React.Component {
                   <Image
                     src={require('./../../assets/images/partners/sparklogo.png')}
                     alt="Spark Logo"
+                    className={imgClasses}
                     width={124}
                     height={24}
                   />
@@ -79,6 +83,7 @@ class Investors extends React.Component {
                   <Image
                     src={require('./../../assets/images/partners/focus_labs.png')}
                     alt="FocusLabs Logo"
+                    className={imgClasses}
                     width={80}
                     height={24}
                   />
@@ -89,6 +94,7 @@ class Investors extends React.Component {
                   <Image
                     src={require('./../../assets/images/partners/caballeros_capital.png')}
                     alt="Caballeros Capital Logo"
+                    className={imgClasses}
                     width={200}
                     height={24}
                   />
@@ -99,6 +105,7 @@ class Investors extends React.Component {
                   <Image
                     src={require('./../../assets/images/partners/bitcoinsuisse.png')}
                     alt="Bitcoin Suisse Logo"
+                    className={imgClasses}
                     width={124}
                     height={24}
                   />

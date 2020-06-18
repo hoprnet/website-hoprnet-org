@@ -4,6 +4,7 @@ import Governance from '../components/sections/Governance'
 import Clients from '../components/sections/Clients'
 import Investors from '../components/sections/Investors'
 import Token from '../components/sections/Token'
+import Values from '../components/sections/Values'
 import Team from '../components/sections/Team'
 import Jobs from '../components/sections/Jobs'
 import ContactTabs from '../components/sections/ContactTabs'
@@ -17,9 +18,10 @@ class HOPR extends React.Component {
         <Clients id="clients" showQuestion />
         <Investors id="investors" hasBgColor invertColor showQuestion />
         <Token id="token" />
-        <Team id="team" hasBgColor invertColor />
-        <Jobs id="jobs" />
-        <ContactTabs id="contact" hasBgColor invertColor redirect />
+        <Values id="values" hasBgColor invertColor />
+        <Team id="team" />
+        <Jobs id="jobs" hasBgColor invertColor />
+        <ContactTabs id="contact" redirect />
       </React.Fragment>
     )
   }
