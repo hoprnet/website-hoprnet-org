@@ -41,8 +41,8 @@ class OrderNode extends React.Component {
               <iframe
                 title="Order a HOPR node"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSc-3tJTsrJtxFD4B9DwaY6V3165Z0sicut4yb9D4NryqsRJhQ/viewform?embedded=true"
-                width="640"
-                height="594"
+                width="700"
+                height="650"
                 frameBorder="0"
                 marginHeight="0"
                 marginWidth="0"
