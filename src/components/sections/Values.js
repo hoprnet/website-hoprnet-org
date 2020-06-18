@@ -56,16 +56,16 @@ class Values extends React.Component {
             <div className={tilesClasses}>
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/common-file-lock@140x140.png')}
+                        src={require('../../assets/images/icons/protection-shield@140x140.png')}
                         alt="File Lock Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">GUARDIAN OF CHOICES</h4>
                     Everyone should have the chance to make decisions in their lives as freely and uninfluenced as
@@ -80,16 +80,16 @@ class Values extends React.Component {
                 data-reveal-delay="100"
               >
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/user-signal@140x140.png')}
+                        src={require('../../assets/images/icons/light-bulb-shine@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">CURIOUS PIONEER</h4>
                     We want to improve the privacy standards of the digital world and are always looking for new ways to
@@ -105,16 +105,16 @@ class Values extends React.Component {
                 data-reveal-delay="100"
               >
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/user-signal@140x140.png')}
+                        src={require('../../assets/images/icons/multiple-users-1@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">VIVID ORGANISM</h4>
                     HOPR is a living ecosystem made up of many different people who share the same goal. We want

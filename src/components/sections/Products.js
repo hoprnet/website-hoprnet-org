@@ -82,16 +82,16 @@ class Products extends React.Component {
             <div className={tilesClasses}>
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/common-file-lock@140x140.png')}
+                        src={require('../../assets/images/icons/cloud-data-transfer@140x140.png')}
                         alt="File Lock Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">Connect devices and clouds:</h4>
                     <ol>
@@ -125,16 +125,16 @@ class Products extends React.Component {
                 data-reveal-delay="100"
               >
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/user-signal@140x140.png')}
+                        src={require('../../assets/images/icons/iris-scan-lock@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">Make crypto assets private:</h4>
                     <ol>
@@ -169,16 +169,16 @@ class Products extends React.Component {
                 data-reveal-delay="100"
               >
                 <div className="tiles-item-inner">
-                  {/* <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/user-signal@140x140.png')}
+                        src={require('../../assets/images/icons/hierarchy-8@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-24">Digitalization without privacy concerns:</h4>
                     <ol>
