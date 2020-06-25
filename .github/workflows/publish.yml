@@ -16,6 +16,22 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.9.1
+      - name: Cache node_modules
+        id: cache-modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ matrix.site }}-build-${{ hashFiles('package.json') }}
+      - name: Install node modules
+        if: steps.cache-modules.outputs.cache-hit != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          yarn install --frozen-lockfile
+          yarn bootstrap
+      - name: Prebuild website for production
+        working-directory: websites/${{ matrix.site }}
+        run: yarn build
       - name: Deploy website to Vercel
         working-directory: websites/${{ matrix.site }}
         run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -c --scope hoprnet
