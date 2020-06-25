@@ -96,10 +96,7 @@ class ContactTabs extends React.Component {
                 <Tab tabId="tab-e" className={redirect ? 'is-active' : undefined}>
                   <a href="http://docs.hoprnet.io/" target="_blank" rel="noopener noreferrer">
                     <div className="features-tabs-tab-image mb-12 reveal-fade" data-reveal-offset="250">
-                      <Image
-                        src={require('../assets/images/icons/outdoors-mining@140x140.png')}
-                        alt="Pickaxe Icon"
-                      />
+                      <Image src={require('../assets/images/icons/outdoors-mining@140x140.png')} alt="Pickaxe Icon" />
                     </div>
                     <div className="text-color-high text-sm">Miners & Relayers</div>
                   </a>

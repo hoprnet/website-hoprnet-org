@@ -1,5 +1,7 @@
 import React from 'react'
-import SedimentumHero from '@hoprnet/hopr-website.components/sections/SedimentumHero'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { SedimentumHero } = sections
 
 class Sedimentum extends React.Component {
   render() {

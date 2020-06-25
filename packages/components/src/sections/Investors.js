@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import SectionHeader from '../sections/partials/SectionHeader'
 import Image from '../elements/Image'
 import Button from '../elements/Button'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 
 const propTypes = {
   ...SectionProps.types,
@@ -59,7 +59,7 @@ class Investors extends React.Component {
               <li className="reveal-from-bottom">
                 <a href="https://www.binance.com/en" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/binance.svg')}
+                    src={require('./../assets/images/partners/binance.svg')}
                     alt="Binance Logo"
                     className={imgClasses}
                     width={124}
@@ -70,7 +70,7 @@ class Investors extends React.Component {
               <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.sparkdigitalcapital.com/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/sparklogo.png')}
+                    src={require('./../assets/images/partners/sparklogo.png')}
                     alt="Spark Logo"
                     className={imgClasses}
                     width={124}
@@ -81,7 +81,7 @@ class Investors extends React.Component {
               <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://twitter.com/fcslabs" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/focus_labs.png')}
+                    src={require('./../assets/images/partners/focus_labs.png')}
                     alt="FocusLabs Logo"
                     className={imgClasses}
                     width={80}
@@ -92,7 +92,7 @@ class Investors extends React.Component {
               <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="http://caballeroscapital.com/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/caballeros_capital.png')}
+                    src={require('./../assets/images/partners/caballeros_capital.png')}
                     alt="Caballeros Capital Logo"
                     className={imgClasses}
                     width={200}
@@ -103,7 +103,7 @@ class Investors extends React.Component {
               {/* <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.bitcoinsuisse.com/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/bitcoinsuisse.png')}
+                    src={require('./../assets/images/partners/bitcoinsuisse.png')}
                     alt="Bitcoin Suisse Logo"
                     className={imgClasses}
                     width={124}

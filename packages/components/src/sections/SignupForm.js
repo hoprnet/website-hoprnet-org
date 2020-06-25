@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 import { Link } from 'react-router-dom'
 import SectionHeader from './partials/SectionHeader'
 import Input from '../elements/Input'

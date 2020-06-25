@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Switch from '../elements/Switch'
 import Button from '../elements/Button'

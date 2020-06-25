@@ -89,7 +89,7 @@ class Blogs extends React.Component {
                   {/* <Tab tabId="tab-e" className={redirect ? 'is-active' : undefined}>
                   <div className="blogs-tabs-tab-image mb-12 reveal-fade" data-reveal-offset="250">
                     <Image
-                      src={require('../../assets/images/icons/space-rocket-launch@140x140.png')}
+                      src={require('../assets/images/icons/space-rocket-launch@140x140.png')}
                       alt="Pickaxe Icon"
                     />
                   </div>

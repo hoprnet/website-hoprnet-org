@@ -1,6 +1,7 @@
 import React from 'react'
-import { Enabling } from '@hoprnet/hopr-website.components'
-import { OpenSource } from '@hoprnet/hopr-website.components'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { Enabling, OpenSource } = sections
 
 class WeAre extends React.Component {
   render() {

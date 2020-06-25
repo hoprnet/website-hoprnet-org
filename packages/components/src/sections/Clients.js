@@ -70,7 +70,7 @@ class Clients extends React.Component {
               {/* <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.bankfrick.li/en/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/bank-frick.svg')}
+                    src={require('./../assets/images/partners/bank-frick.svg')}
                     alt="Bank Frick Logo"
                     className={imgClasses}
                     width={124}
@@ -81,7 +81,7 @@ class Clients extends React.Component {
               {/* <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.hbl.ch/de/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/hbl.png')}
+                    src={require('./../assets/images/partners/hbl.png')}
                     alt="HBL Logo"
                     className={imgClasses}
                     width={124}
@@ -103,7 +103,7 @@ class Clients extends React.Component {
               {/* <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.bitcoinsuisse.com/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('./../../assets/images/partners/bitcoinsuisse.png')}
+                    src={require('./../assets/images/partners/bitcoinsuisse.png')}
                     alt="Bitcoin Suisse Logo"
                     className={imgClasses}
                     width={124}

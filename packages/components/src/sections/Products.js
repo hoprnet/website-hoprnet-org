@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
 
@@ -85,7 +85,7 @@ class Products extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/cloud-data-transfer@140x140.png')}
+                        src={require('../assets/images/icons/cloud-data-transfer@140x140.png')}
                         alt="File Lock Icon"
                         width={56}
                         height={56}
@@ -128,7 +128,7 @@ class Products extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/iris-scan-lock@140x140.png')}
+                        src={require('../assets/images/icons/iris-scan-lock@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
@@ -172,7 +172,7 @@ class Products extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/hierarchy-8@140x140.png')}
+                        src={require('../assets/images/icons/hierarchy-8@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}

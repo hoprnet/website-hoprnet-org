@@ -1,7 +1,7 @@
 import React from 'react'
-import { Blog } from '@hoprnet/hopr-website.components'
-import { ForYou } from '@hoprnet/hopr-website.components'
-import Videos from '@hoprnet/hopr-website.components/sections/Videos'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { Blog, ForYou, Videos } = sections
 
 class HOPR extends React.Component {
   render() {

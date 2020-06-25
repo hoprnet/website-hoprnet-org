@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import Image from '../elements/Image'
 
 const propTypes = {
@@ -52,7 +52,7 @@ class TeamAndInvestors extends React.Component {
                     Team
                   </h3>
                   <div className="has-shadow has-bg-color invert-color card" style={{ backgroundColor: '#53A3B9' }}>
-                    <Image src={require('../../assets/images/cards/team-card.png')} />
+                    <Image src={require('../assets/images/cards/team-card.png')} />
                   </div>
                 </a>
               </div>
@@ -65,7 +65,7 @@ class TeamAndInvestors extends React.Component {
                     Investors
                   </h3>
                   <div className="has-shadow has-bg-color invert-color card" style={{ backgroundColor: '#2E9AB9' }}>
-                    <Image src={require('../../assets/images/cards/investors-card.png')} />
+                    <Image src={require('../assets/images/cards/investors-card.png')} />
                   </div>
                 </a>
               </div>

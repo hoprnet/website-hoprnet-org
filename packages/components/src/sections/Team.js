@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
 
@@ -60,7 +60,7 @@ class Team extends React.Component {
                     <a href="https://www.linkedin.com/in/scbuergel/" target="_blank" rel="noopener noreferrer">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/sebastian_burgel.jpg')}
+                          src={require('./../assets/images/team/sebastian_burgel.jpg')}
                           alt="Team member 01"
                           width={180}
                           height={180}
@@ -90,7 +90,7 @@ class Team extends React.Component {
                     <div className="team-item-header">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/robert_kiel.jpg')}
+                          src={require('./../assets/images/team/robert_kiel.jpg')}
                           alt="Team member 02"
                           width={180}
                           height={180}
@@ -116,7 +116,7 @@ class Team extends React.Component {
                     <div className="team-item-header">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/rik_krieger.jpg')}
+                          src={require('./../assets/images/team/rik_krieger.jpg')}
                           alt="Team member 03"
                           width={180}
                           height={180}
@@ -142,7 +142,7 @@ class Team extends React.Component {
                     <div className="team-item-header">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/jose_aguinaga.jpg')}
+                          src={require('./../assets/images/team/jose_aguinaga.jpg')}
                           alt="Team member 04"
                           width={180}
                           height={180}
@@ -168,7 +168,7 @@ class Team extends React.Component {
                     <div className="team-item-header">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/steven_nonis.jpg')}
+                          src={require('./../assets/images/team/steven_nonis.jpg')}
                           alt="Team member 05"
                           width={180}
                           height={180}
@@ -194,7 +194,7 @@ class Team extends React.Component {
                     <div className="team-item-header">
                       <div className="team-item-image mb-24">
                         <Image
-                          src={require('./../../assets/images/team/kevin-leu.jpg')}
+                          src={require('./../assets/images/team/kevin-leu.jpg')}
                           alt="Team member 06"
                           width={180}
                           height={180}
@@ -219,7 +219,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/team/rich_mcdowell.jpg')}
+                        src={require('./../assets/images/team/rich_mcdowell.jpg')}
                         alt="Team member 06"
                         width={180}
                         height={180}

@@ -1,12 +1,7 @@
 import React from 'react'
-import { HeroFull } from '@hoprnet/hopr-website.components'
-import Products from '@hoprnet/hopr-website.components/sections/Products'
-import { FeaturesTabs } from '@hoprnet/hopr-website.components'
-import { FeaturesTiles } from '@hoprnet/hopr-website.components'
-import { Blogs } from '@hoprnet/hopr-website.components'
-import { Clients } from '@hoprnet/hopr-website.components'
-import TeamAndInvestors from '@hoprnet/hopr-website.components/sections/TeamAndInvestors'
-import { Contact } from '@hoprnet/hopr-website.components'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { HeroFull, Products, FeaturesTabs, FeaturesTiles, Blogs, Clients, TeamAndInvestors, Contact } = sections
 
 class Home extends React.Component {
   render() {

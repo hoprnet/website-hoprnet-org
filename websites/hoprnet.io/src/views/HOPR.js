@@ -1,13 +1,7 @@
 import React from 'react'
-import { AboutUs } from '@hoprnet/hopr-website.components'
-import { Governance } from '@hoprnet/hopr-website.components'
-import { Clients } from '@hoprnet/hopr-website.components'
-// import Investors from '@hoprnet/hopr-website.components/sections/Investors'
-import Token from '@hoprnet/hopr-website.components/sections/Token'
-import Values from '@hoprnet/hopr-website.components/sections/Values'
-import Team from '@hoprnet/hopr-website.components/sections/Team'
-import { Jobs } from '@hoprnet/hopr-website.components'
-import { ContactTabs } from '@hoprnet/hopr-website.components'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { AboutUs, Governance, Clients, Investors, Token, Values, Team, Jobs, ContactTabs } = sections
 
 class HOPR extends React.Component {
   render() {

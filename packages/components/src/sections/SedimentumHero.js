@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import GenericSection from './GenericSection'
 import Image from '../elements/Image'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 
 const propTypes = {
   children: PropTypes.node,
@@ -40,7 +40,7 @@ const Sedimentum = props => {
             <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
               <Image
                 className="has-shadow"
-                src={require('../../assets/images/partners/sedimentum.png')}
+                src={require('../assets/images/partners/sedimentum.png')}
                 alt="Hero"
                 width={896}
                 height={504}
@@ -178,7 +178,7 @@ const Sedimentum = props => {
                 <br />
                 <Image
                   className="has-shadow"
-                  src={require('./../../assets/images/partners/sedimentum_diagram_1.png')}
+                  src={require('./../assets/images/partners/sedimentum_diagram_1.png')}
                   alt="Sedimentum Diagram 1"
                   width={528}
                   height={396}
@@ -214,7 +214,7 @@ const Sedimentum = props => {
             <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
               <Image
                 className="has-shadow"
-                src={require('../../assets/images/partners/sedimentum.png')}
+                src={require('../assets/images/partners/sedimentum.png')}
                 alt="Hero"
                 width={896 / 3.5}
                 height={504 / 3.5}

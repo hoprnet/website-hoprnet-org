@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 import Image from '../elements/Image'
 import Modal from '../elements/Modal'
 
@@ -71,7 +71,7 @@ class HeroFull extends React.Component {
               >
                 <Image
                   className="has-shadow"
-                  src={require('./../../assets/images/video-placeholder.svg')}
+                  src={require('./../assets/images/video-placeholder.svg')}
                   alt="Video"
                   width={712}
                   height={400}

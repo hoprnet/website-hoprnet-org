@@ -1,15 +1,35 @@
-export {default as AboutUs} from "./AboutUs";
-export {default as ForYou} from "./ForYou";
-export {default as Blog} from "./Blog";
-export {default as Blogs} from "./Blogs";
-export {default as Clients} from "./Clients";
-export {default as Contact} from "./Contact";
-export {default as ContactTabs} from "./ContactTabs";
-export {default as Enabling} from "./Enabling";
-export {default as FeaturesTabs} from "./FeaturesTabs";
-export {default as FeaturesTiles} from "./FeaturesTiles";
-export {default as Governance} from "./Governance";
-export {default as HeroFull} from "./HeroFull";
-export {default as Jobs} from "./Jobs";
-export {default as NodeHero} from "./NodeHero";
-export {default as OpenSource} from "./OpenSource";
+import { default as AboutUs } from './AboutUs'
+import { default as Blog } from './Blog'
+import { default as Blogs } from './Blogs'
+import { default as Clients } from './Clients'
+import { default as Contact } from './Contact'
+import { default as ContactTabs } from './ContactTabs'
+import { default as Cta } from './Cta'
+import { default as Enabling } from './Enabling'
+import { default as FeaturesSplit } from './FeaturesSplit'
+import { default as FeaturesTabs } from './FeaturesTabs'
+import { default as FeaturesTiles } from './FeaturesTiles'
+import { default as ForYou } from './ForYou'
+import { default as GenericSection } from './GenericSection'
+import { default as Governance } from './Governance'
+import { default as HeroFull02 } from './HeroFull02'
+import { default as HeroFull } from './HeroFull'
+import { default as index } from './index'
+import { default as Investors } from './Investors'
+import { default as Jobs } from './Jobs'
+import { default as LoginForm } from './LoginForm'
+import { default as News } from './News'
+import { default as NodeHero } from './NodeHero'
+import { default as OpenSource } from './OpenSource'
+import { default as Pricing } from './Pricing'
+import { default as Products } from './Products'
+import { default as RequestTestnet } from './RequestTestnet'
+import { default as Roadmap } from './Roadmap'
+import { default as SedimentumHero } from './SedimentumHero'
+import { default as SignupForm } from './SignupForm'
+import { default as TeamAndInvestors } from './TeamAndInvestors'
+import { default as Team } from './Team'
+import { default as Testimonial } from './Testimonial'
+import { default as Token } from './Token'
+import { default as Values } from './Values'
+import { default as Videos } from './Videos'

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import GenericSection from './GenericSection'
 import SectionHeader from './partials/SectionHeader'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 
 const propTypes = {
   children: PropTypes.node,

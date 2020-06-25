@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionProps } from '../../utils/SectionProps'
+import { SectionProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Timeline from '../elements/Timeline'
 import TimelineItem from '../elements/TimelineItem'

@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
 
@@ -59,7 +59,7 @@ class Values extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/protection-shield@140x140.png')}
+                        src={require('../assets/images/icons/protection-shield@140x140.png')}
                         alt="File Lock Icon"
                         width={56}
                         height={56}
@@ -83,7 +83,7 @@ class Values extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/light-bulb-shine@140x140.png')}
+                        src={require('../assets/images/icons/light-bulb-shine@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}
@@ -108,7 +108,7 @@ class Values extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('../../assets/images/icons/multiple-users-1@140x140.png')}
+                        src={require('../assets/images/icons/multiple-users-1@140x140.png')}
                         alt="Sharing Icon"
                         width={56}
                         height={56}

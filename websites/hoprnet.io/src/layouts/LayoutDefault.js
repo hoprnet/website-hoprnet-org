@@ -1,6 +1,7 @@
 import React from 'react'
-import { Header } from '@hoprnet/hopr-website.components'
-import { Footer } from '@hoprnet/hopr-website.components'
+import { layout } from '@hoprnet/hopr-website.components'
+
+const { Header, Footer } = layout
 
 const LayoutDefault = ({ children }) => (
   <React.Fragment>

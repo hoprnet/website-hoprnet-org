@@ -29,7 +29,12 @@ class Carousel extends React.Component {
   carousel = React.createRef()
 
   componentDidMount() {
-    this.setState({ items: [...Array.prototype.slice.call(this.carousel.current.childNodes)] }, () => this.heightFix())
+    this.setState(
+      {
+        items: [...Array.prototype.slice.call(this.carousel.current.childNodes)],
+      },
+      () => this.heightFix()
+    )
     this.playAutorotate()
     window.addEventListener('resize', this.heightFix)
   }

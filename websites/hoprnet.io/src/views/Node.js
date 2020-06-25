@@ -1,6 +1,7 @@
 import React from 'react'
-import { NodeHero } from '@hoprnet/hopr-website.components'
-import RequestTestnet from '@hoprnet/hopr-website.components/sections/RequestTestnet'
+import { sections } from '@hoprnet/hopr-website.components'
+
+const { NodeHero, RequestTestnet } = sections
 
 class Node extends React.Component {
   render() {

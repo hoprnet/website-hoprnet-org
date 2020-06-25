@@ -1,6 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
-import { SectionTilesProps } from '../../utils/SectionProps'
+import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
 
@@ -60,7 +60,7 @@ class Testimonial extends React.Component {
                   <div className="testimonial-item-header mb-16">
                     <div className="testimonial-item-image">
                       <Image
-                        src={require('./../../assets/images/testimonial-image-01.jpg')}
+                        src={require('./../assets/images/testimonial-image-01.jpg')}
                         alt="Testimonial 01"
                         width={48}
                         height={48}
@@ -94,7 +94,7 @@ class Testimonial extends React.Component {
                   <div className="testimonial-item-header mb-16">
                     <div className="testimonial-item-image">
                       <Image
-                        src={require('./../../assets/images/testimonial-image-02.jpg')}
+                        src={require('./../assets/images/testimonial-image-02.jpg')}
                         alt="Testimonial 02"
                         width={48}
                         height={48}
@@ -128,7 +128,7 @@ class Testimonial extends React.Component {
                   <div className="testimonial-item-header mb-16">
                     <div className="testimonial-item-image">
                       <Image
-                        src={require('./../../assets/images/testimonial-image-03.jpg')}
+                        src={require('./../assets/images/testimonial-image-03.jpg')}
                         alt="Testimonial 03"
                         width={48}
                         height={48}

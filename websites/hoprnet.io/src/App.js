@@ -1,9 +1,6 @@
 import React from 'react'
 import { withRouter, Switch } from 'react-router-dom'
-import AppRoute from './utils/AppRoute'
-import ScrollReveal from './utils/ScrollReveal'
-import ScrollToTop from './utils/ScrollToTop'
-import insertScript from './utils/insertScript'
+import { utils } from '@hoprnet/hopr-website.components'
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault'
@@ -15,6 +12,8 @@ import WeAre from './views/WeAre'
 import ForYou from './views/ForYou'
 import Node from './views/Node'
 import Sedimentum from './views/Sedimentum'
+
+const { AppRoute, ScrollReveal, ScrollToTop, insertScript } = utils
 
 class App extends React.Component {
   componentDidMount() {
