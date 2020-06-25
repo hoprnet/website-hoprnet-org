@@ -9,7 +9,8 @@
     "bootstrap": "lerna bootstrap --use-workspaces",
     "start:hoprnet.io": "lerna exec --scope @hoprnet/hopr-website.hoprnet.io -- yarn start",
     "start:hoprnet.org": "lerna exec --scope @hoprnet/hopr-website.hoprnet.org -- yarn start",
-    "clean": "lerna clean"
+    "clean": "lerna clean",
+    "build": "lerna exec -- yarn build"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

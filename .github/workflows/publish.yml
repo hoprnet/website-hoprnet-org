@@ -3,7 +3,10 @@ name: Publish
 on:
   push:
     branches:
-      - 'feature/splitting-websites' # For debugging purposes for now
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   website:
@@ -33,4 +36,4 @@ jobs:
         working-directory: websites/${{ matrix.site }}
         run: yarn build
       - name: Deploy website to Vercel
-        run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -A websites/${{ matrix.site }}/now.json -c --scope hoprnet --prod
+        run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -A websites/${{ matrix.site }}/now.json -c --scope hoprnet
