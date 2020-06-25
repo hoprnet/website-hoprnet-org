@@ -1,0 +1,21 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - 'feature/splitting-websites' # For debugging purposes for now
+
+jobs:
+  website:
+    name: Deploys the Websites
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        site: [hoprnet.io, hoprnet.org]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.9.1
+      - name: Deploy website to Vercel
+        run: now websites/${{ matrix.site }} -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -c --scope hoprnet
