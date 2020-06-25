@@ -33,5 +33,4 @@ jobs:
         working-directory: websites/${{ matrix.site }}
         run: yarn build
       - name: Deploy website to Vercel
-        working-directory: websites/${{ matrix.site }}
-        run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -c --scope hoprnet
+        run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -A websites/${{ matrix.site }}/now.json -c --scope hoprnet --prod
