@@ -35,5 +35,9 @@ jobs:
       - name: Prebuild website for production
         working-directory: websites/${{ matrix.site }}
         run: yarn build
-      - name: Deploy website to Vercel
+      - name: Deploy website to Vercel (staging)
+        if: github.ref != 'refs/heads/master'
+        run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -A websites/${{ matrix.site }}/now.json -c --scope hoprnet
+      - name: Deploy website to Vercel (production)
+        if: github.ref == 'refs/heads/master'
         run: npx now -t ${{ secrets.NOW_DEPLOYMENT_TOKEN }} -A websites/${{ matrix.site }}/now.json -c --scope hoprnet
