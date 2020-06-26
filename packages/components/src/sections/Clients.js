@@ -13,7 +13,8 @@ const defaultProps = {
   ...SectionProps.defaults,
 }
 
-const isCompany = process.env.IS_COMPANY === 'TRUE'
+console.log(process.env)
+const isCompany = process.env.REACT_APP_IS_COMPANY === 'TRUE'
 
 class Clients extends React.Component {
   render() {
