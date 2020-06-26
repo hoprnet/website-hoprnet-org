@@ -13,6 +13,8 @@ const defaultProps = {
   ...SectionProps.defaults,
 }
 
+const isCompany = process.env.IS_COMPANY === 'TRUE'
+
 class Clients extends React.Component {
   render() {
     const {
@@ -50,7 +52,7 @@ class Clients extends React.Component {
           <div className={innerClasses}>
             <SectionHeader
               data={{
-                title: 'Partners:',
+                title: 'Partners',
                 paragraph: undefined,
               }}
               className="center-content header"
@@ -117,7 +119,7 @@ class Clients extends React.Component {
                 <Button
                   color={invertColor ? 'secondary' : 'primary'}
                   tag="a"
-                  href="mailto:rik.krieger@hoprnet.io?subject=Partnership"
+                  href={isCompany ? 'mailto:rik.krieger@hoprnet.io?subject=Partnership' : undefined}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -27,7 +27,7 @@ class Jobs extends React.Component {
         <div className="container-sm">
           <SectionHeader
             data={{
-              title: 'Jobs:',
+              title: 'Jobs',
               paragraph: 'Want to join our team?',
             }}
             className="center-content"
