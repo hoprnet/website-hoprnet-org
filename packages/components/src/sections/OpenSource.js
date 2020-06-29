@@ -157,7 +157,7 @@ const OpenSource = props => {
             <Button
               color={props.invertColor ? 'secondary' : 'primary'}
               tag="a"
-              href="http://docs.hoprnet.io/"
+              href="http://docs.hoprnet.org/"
               target="_blank"
               rel="noopener noreferrer"
             >

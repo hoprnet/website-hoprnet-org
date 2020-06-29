@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import { SectionTilesProps } from '../utils/SectionProps'
 import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
+import Button from '../elements/Button'
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -191,7 +192,7 @@ const ProfilesAssociation = () => {
           </div>
           <div className="team-item-content">
             <h5 className="team-item-name mt-0 mb-4">Dr. Sebastian Bürgel</h5>
-            <div className="team-item-role text-xs fw-500 mb-8">Founder</div>
+            <div className="team-item-role text-xs fw-500 mb-8">President</div>
             {/* <p className="m-0 text-sm"></p> */}
           </div>
         </div>
@@ -212,7 +213,7 @@ const ProfilesAssociation = () => {
             </div>
           </a>
           <div className="team-item-content">
-            <h5 className="team-item-name mt-0 mb-4">Catrina Luchsinger</h5>
+            <h5 className="team-item-name mt-0 mb-4">Dr. Catrina Luchsinger</h5>
             <div className="team-item-role text-xs fw-500 mb-8">Board Member</div>
             {/* <p className="m-0 text-sm"></p> */}
           </div>
@@ -237,6 +238,27 @@ const ProfilesAssociation = () => {
             <h5 className="team-item-name mt-0 mb-4">Ronald Kogens</h5>
             <div className="team-item-role text-xs fw-500 mb-8">Board Member</div>
             {/* <p className="m-0 text-sm"></p> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+        <div className="tiles-item-inner">
+          <a href="https://hopr.swiss/hopr/#team/" target="_blank" rel="noopener noreferrer">
+            <div className="team-item-header">
+              <div className="team-item-image mb-24 ">
+                <Image
+                  src={require('./../assets/images/logo.png')}
+                  alt="HOPR Services LTD Avatars"
+                  width={180}
+                  height={180}
+                />
+              </div>
+            </div>
+          </a>
+          <div className="team-item-content">
+            <h5 className="team-item-name mt-0 mb-4">HOPR Services LTD</h5>
+            <div className="team-item-role text-xs fw-500 mb-8">Platform development</div>
           </div>
         </div>
       </div>
@@ -292,7 +314,16 @@ class Team extends React.Component {
               <div>
                 Do you want to become a member of the association?
                 <br />
-                <span className="text-color-high">(coming mid-Auguest 2020)</span>
+                <br />
+                <Button
+                  color={props.invertColor ? 'secondary' : 'primary'}
+                  tag="a"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScXMsEYPyuFM_6Hvc5MGUXzhXcV3z5vNO19-IMeYpW43Y5Q2A/viewform?usp=sf_link&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Apply
+                </Button>
               </div>
             )}
           </div>
