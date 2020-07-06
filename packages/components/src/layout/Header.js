@@ -112,7 +112,7 @@ class Header extends React.Component {
                     <ul className={classNames('list-reset text-ms', navPosition && `header-nav-${navPosition}`)}>
                       <li>
                         <Link to="/hopr" onClick={this.closeMenu}>
-                          HOPR
+                          {isCompany ? 'About us' : 'HOPR'}
                         </Link>
                       </li>
                       {!isCompany && (

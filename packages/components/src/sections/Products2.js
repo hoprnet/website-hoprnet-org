@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import { SectionTilesProps } from '../utils/SectionProps'
+import SectionHeader from './partials/SectionHeader'
 import Image from '../elements/Image'
 
 const propTypes = {
@@ -9,6 +10,11 @@ const propTypes = {
 
 const defaultProps = {
   ...SectionTilesProps.defaults,
+}
+
+const sectionHeader = {
+  title: 'HOPR Services',
+  paragraph: undefined,
 }
 
 class Products extends React.Component {
@@ -46,6 +52,7 @@ class Products extends React.Component {
       <section {...props} className={outerClasses}>
         <div className="container">
           <div className={innerClasses}>
+            <SectionHeader data={sectionHeader} />
             <a href="mailto:partners@hopr.swiss" target="_blank" rel="noopener noreferrer">
               <div className={tilesClasses}>
                 <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
