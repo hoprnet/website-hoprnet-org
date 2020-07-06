@@ -115,17 +115,19 @@ class Header extends React.Component {
                           HOPR
                         </Link>
                       </li>
-                      <li>
-                        <Link to="/we_are" onClick={this.closeMenu}>
-                          We Are
-                        </Link>
-                      </li>
                       {!isCompany && (
-                        <li>
-                          <Link to="/for_you" onClick={this.closeMenu}>
-                            For You
-                          </Link>
-                        </li>
+                        <>
+                          <li>
+                            <Link to="/we_are" onClick={this.closeMenu}>
+                              We Are
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/for_you" onClick={this.closeMenu}>
+                              For You
+                            </Link>
+                          </li>
+                        </>
                       )}
                     </ul>
                     {!hideSignin && (
