@@ -12,11 +12,11 @@
       { "src": "/service-worker.js", "headers": { "cache-control": "s-maxage=0" }, "dest": "/build/service-worker.js" },
       { "src": "/(.*)", "headers": {"cache-control": "s-maxage=0"}, "dest": "build/index.html" },
       {
-          "src": "/hopr",
+          "src": "/hopr/*",
           "status": 301,
           "headers": { "Location": "/who-is-HOPR" }
       },
-      { "src": "/we_are", "dest": "/layer0-data-privacy" },
+      { "src": "/we_are/*", "dest": "/layer0-data-privacy" },
       { "src": "/for_you", "dest": "/do-business-with-HOPR" }
     ]
   }
