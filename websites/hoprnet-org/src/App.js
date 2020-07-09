@@ -15,16 +15,16 @@ import Sedimentum from './views/Sedimentum'
 import Ecosystem from './views/Ecosystem'
 
 const { AppRoute, ScrollReveal, ScrollToTop, insertScript } = utils
-const { Disclaimer } = views
+const { Disclaimer, Pdf } = views
 
 class App extends React.Component {
   componentDidMount() {
     document.body.classList.add('is-loaded')
     this.refs.scrollReveal.init()
 
-    // add silkworm analytics
-    const script = insertScript('https://silkworm.hoprnet.io/script.js')
-    script.setAttribute('site', 'DJJBUEUD')
+    // add fathom analytics
+    const script = insertScript('https://panther.hoprnet.org/script.js')
+    script.setAttribute('site', 'ZXTSKLDN')
     script.setAttribute('spa', 'auto')
   }
 
@@ -44,13 +44,31 @@ class App extends React.Component {
           children={() => (
             <Switch>
               <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-              <AppRoute exact path="/hopr" component={HOPR} layout={LayoutDefault} />
-              <AppRoute exact path="/we_are" component={WeAre} layout={LayoutDefault} />
-              <AppRoute exact path="/for_you" component={ForYou} layout={LayoutDefault} />
+              <AppRoute exact path="/who-is-HOPR" component={HOPR} layout={LayoutDefault} />
+              <AppRoute exact path="/layer0-data-privacy" component={WeAre} layout={LayoutDefault} />
+              <AppRoute exact path="/do-business-with-HOPR" component={ForYou} layout={LayoutDefault} />
               <AppRoute exact path="/node" component={Node} layout={LayoutDefault} />
               <AppRoute exact path="/sedimentum" component={Sedimentum} layout={LayoutDefault} />
               <AppRoute exact path="/disclaimer" component={Disclaimer} layout={LayoutDefault} />
               <AppRoute exact path="/ecosystem" component={Ecosystem} layout={LayoutDefault} />
+              <AppRoute
+                exact
+                path="/Chinese-Language-Binance-HOPR-Press-Release"
+                component={Pdf('Chinese Binance HOPR Press Release.pdf')}
+                layout={LayoutDefault}
+              />
+              <AppRoute
+                exact
+                path="/Korean-Language-Binance-HOPR-Press-Release"
+                component={Pdf('Korean Binance HOPR Press Release.pdf')}
+                layout={LayoutDefault}
+              />
+              <AppRoute
+                exact
+                path="/Japanese-Language-Binance-HOPR-Press-Release"
+                component={Pdf('Japanese Binance HOPR Press Release.pdf')}
+                layout={LayoutDefault}
+              />
             </Switch>
           )}
         />
