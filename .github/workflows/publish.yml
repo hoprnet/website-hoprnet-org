@@ -18,14 +18,20 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.9.1
-      - name: Cache node_modules
-        id: cache-modules
+      - name: Cache components node_modules
+        id: cache-components-modules
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: ${{ matrix.site }}-build-${{ hashFiles('package.json') }}
+          key: components-build-${{ hashFiles('packages/components/package.json') }}
+      - name: Cache ${{ matrix.site }} node_modules
+        id: cache-${{ matrix.site }}-modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ matrix.site }}-build-${{ hashFiles(matrix.site + 'package.json') }}
       - name: Install node modules
-        if: steps.cache-modules.outputs.cache-hit != 'true'
+        if: steps.cache-components-modules.outputs.cache-hit != 'true' || steps.cache-${{ matrix.site }}-modules.outputs.cache-hit != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
