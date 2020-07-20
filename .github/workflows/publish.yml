@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        site: [hopr-swiss, hoprnet-org]
+        site: [hoprnet-org]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
