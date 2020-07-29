@@ -20,7 +20,7 @@ const AboutUs = props => {
       <div className="center-content">
         <div className="container-sm">
           <h2 className="section-header mt-0 mb-0 reveal-from-top" data-reveal-delay="150">
-            About us
+            Independent, Incorruptible, And Indestructible
           </h2>
           <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
             <Image
@@ -40,15 +40,24 @@ const AboutUs = props => {
             universal data privacy.
             <br />
             <br />
-            We know that this is an ambitious and difficult target, and we won't be able to achieve it alone, but we
-            believe HOPR can provide a significant and essential piece of the puzzle, ready for others to build on.
+            With the HOPR protocol, companies and users can decide for themselves who can view their data and who can't.
             <br />
             <br />
-            Our vision is a world where privacy is available for anyone and everyone who wants it.
+            With the HOPR protocol, data security is solved, letting everyone focus on helping people through
+            digitalization.
+            <br />
+            <br />
+            The HOPR community is building the digital privacy landscape of tomorrow. We invite everybody to join our
+            movement.
             <br />
             <br />
             Learn more about the team that buidls the HOPR network{' '}
-            <a href="https://hopr.swiss/who-is-HOPR#team" target="_blank" rel="noopener noreferrer" className="underline">
+            <a
+              href="https://hopr.swiss/who-is-HOPR#team"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
               here
             </a>
             .

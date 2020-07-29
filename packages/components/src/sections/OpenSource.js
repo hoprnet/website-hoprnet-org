@@ -24,13 +24,16 @@ const OpenSourceSupport = props => (
           Open Source Support
         </h2>
         <div className="open-source reveal-from-top" data-reveal-delay="300">
-          At HOPR we embrace and live the ethos of free and open source software. Especially when making claims about
-          privacy, it's important that you can check and challenge every bit of our work.
+          At HOPR, we embrace and live the ethos of free and open source software – especially when making claims about
+          privacy.
           <br />
           <br />
-          But we want to take it further: we support the vision of Web 3.0 as an open and collaborative ecosystem.
-          Therefore, we walk the talk and contribute to a range of open source projects beyond our primary project, the
-          HOPR protocol:
+          It's important that you can check and challenge every bit of our work.
+          <br />
+          <br />
+          We want to take it further: we support the vision of Web 3 as an open and collaborative ecosystem. Therefore,
+          we walk the talk and contribute to a range of open source projects beyond our primary project, the HOPR
+          protocol:
           <br />
           <br />
           <ul>
@@ -150,7 +153,7 @@ const Documentantion = props => (
           Documentation
         </h2>
         <div className="description reveal-from-top" data-reveal-delay="300">
-          Find out more on how to join the HOPR network, run your own node and dive deeper into how to BUIDL with HOPR.
+          Find out more on how to join the HOPR network, run your own node, and dive deeper into how to BUIDL with HOPR.
         </div>
         <Button
           color={props.invertColor ? 'secondary' : 'primary'}
@@ -159,7 +162,7 @@ const Documentantion = props => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hosted at gitbook
+          START NOW
         </Button>
       </div>
     </div>
@@ -171,7 +174,7 @@ const Community = props => (
     <div className="center-content">
       <div className="container-sm">
         <h2 className="section-header mt-0 mb-0 reveal-from-top" data-reveal-delay="150">
-          Work on Bounties
+          Work On Bounties
         </h2>
         <div className="reveal-from-top" data-reveal-delay="300">
           Why wouldn't you get paid for developing open source software?
@@ -180,11 +183,8 @@ const Community = props => (
           <a className="underline" href="https://gitcoin.co/hoprnet" target="_blank" rel="noopener noreferrer">
             Gitcoin
           </a>{' '}
-          - some are fairly beginner-friendly while some require more in-depth knowledge of the HOPR protocol. HOPR is
+          - some are fairly beginner-friendly, while some require more in-depth knowledge of the HOPR protocol. HOPR is
           built by the community for the community.
-          <br />
-          <br />
-          (coming mid-July 2020)
         </div>
       </div>
     </div>

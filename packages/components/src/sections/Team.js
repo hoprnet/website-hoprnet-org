@@ -310,7 +310,7 @@ class Team extends React.Component {
     const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left')
 
     const sectionHeader = {
-      title: isCompany ? 'Team' : 'Board of Association',
+      title: isCompany ? 'Team' : 'Board Of Association',
       paragraph: undefined,
     }
 

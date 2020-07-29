@@ -44,7 +44,7 @@ class News extends React.Component {
     const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left')
 
     const sectionHeader = {
-      title: 'In the News',
+      title: 'In The News',
       paragraph: undefined,
     }
 

@@ -46,7 +46,7 @@ class ContactTabs extends React.Component {
     )
 
     const sectionHeader = {
-      title: 'Contact us',
+      title: 'Contact Us',
       paragraph: undefined,
     }
 

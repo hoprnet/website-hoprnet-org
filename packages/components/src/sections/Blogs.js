@@ -44,7 +44,7 @@ class Blogs extends React.Component {
     )
 
     const sectionHeader = {
-      title: 'HOPR blogs',
+      title: 'HOPR Blogs',
       paragraph: undefined,
     }
 

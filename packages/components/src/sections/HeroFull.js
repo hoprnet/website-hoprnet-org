@@ -55,7 +55,7 @@ class HeroFull extends React.Component {
                     "We're proud to build the HOPR network for the HOPR Association."
                   ) : (
                     <>
-                      <h3>Changing Data Privacy For The Good</h3>
+                      <h3>Changing Data Privacy For Good</h3>
                       The HOPR protocol ensures everyone has control of their privacy, data, and identity.
                     </>
                   )}
