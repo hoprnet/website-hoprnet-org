@@ -69,7 +69,7 @@ class Products extends React.Component {
             <br />
             The{' '}
             <a href="/layer0-data-privacy#how">
-              <span className="text-color-high">HOPR protocol</span>
+              <span className="text-color-high underline">HOPR protocol</span>
             </a>{' '}
             is a layer-0 privacy foundation for anyone to{' '}
             <a
@@ -77,7 +77,7 @@ class Products extends React.Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="text-color-high">buidl</span>
+              <span className="text-color-high underline">buidl</span>
             </a>{' '}
             on.
           </p>

@@ -99,7 +99,12 @@ const OpenSourceSupport = props => (
               </a>{' '}
               is a general-purpose value description format used by a range of decentralized networks to which we
               contributed some{' '}
-              <a href="https://github.com/multiformats/js-multiaddr/pull/112" target="_blank" rel="noopener noreferrer">
+              <a
+                className="underline"
+                href="https://github.com/multiformats/js-multiaddr/pull/112"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 fixes and testing
               </a>
               .
@@ -107,6 +112,7 @@ const OpenSourceSupport = props => (
 
             <li>
               <a
+                className="underline"
                 href="https://github.com/dignifiedquire/pull-length-prefixed"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -115,6 +121,7 @@ const OpenSourceSupport = props => (
               </a>{' '}
               is a data transmission mechanism for decentralized applications where we{' '}
               <a
+                className="underline"
                 href="https://github.com/dignifiedquire/pull-length-prefixed/pull/20"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -130,6 +137,7 @@ const OpenSourceSupport = props => (
               </a>{' '}
               is a repository for TypeScript definitions used in over 3 million projects where we{' '}
               <a
+                className="underline"
                 href="https://github.com/DefinitelyTyped/DefinitelyTyped/pull/42559"
                 target="_blank"
                 rel="noopener noreferrer"

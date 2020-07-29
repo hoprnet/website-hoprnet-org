@@ -23,7 +23,7 @@ const ForYou = props => {
           <h2 className="section-header mt-0 mb-0 reveal-from-top" data-reveal-delay="150">
             Join The HOPR Community
           </h2>
-          <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
+          {/* <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
             <Image
               className="has-shadow"
               src={require('../assets/images/Web3-Data-Privacy.png')}
@@ -34,12 +34,12 @@ const ForYou = props => {
                 borderRadius: '15px',
               }}
             />
-          </div>
+          </div> */}
           <div className="pt-32 reveal-from-top" data-reveal-delay="300">
             You can reach us on any of these channels:
             <br />
             <br />
-            <FooterSocial className="large" />
+            <FooterSocial className="large" invertColor />
           </div>
         </div>
       </div>

@@ -18,12 +18,12 @@ const Enabling = props => {
   return (
     <>
       <GenericSection {...props}>
-        <div className="center-content">
+        <div className="center-content whole-page">
           <div className="container-sm">
-            <h2 className="section-header mt-0 mb-0 reveal-from-top" data-reveal-delay="150">
+            <h2 className="section-header mt-0 mb-0 reveal-from-top big-title" data-reveal-delay="150">
               Enabling Data Privacy
             </h2>
-            <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
+            {/* <div className="mb-32 hero-figure reveal-from-top" data-reveal-delay="200">
               <Image
                 className="has-shadow"
                 src={require('../assets/images/Web3-Data-Privacy.png')}
@@ -34,7 +34,7 @@ const Enabling = props => {
                   borderRadius: '15px',
                 }}
               />
-            </div>
+            </div> */}
             <div className="pt-32 reveal-from-top" data-reveal-delay="300">
               Everything we do, we get tracked–often without even knowing it. And this data is then used to influence us
               and our decisions. We believe that everyone should have the chance to make their own decisions in their
