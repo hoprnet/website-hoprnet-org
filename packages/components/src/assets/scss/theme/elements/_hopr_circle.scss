@@ -1,0 +1,52 @@
+@keyframes animateCircle {
+  0% {
+    opacity: 1;
+    transform: translate(10%, 10%) scale(1);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(10%, 10%) scale(1);
+  }
+  35% {
+    opacity: 1;
+    transform: translate(10%, 10%) scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(100%, -20%) scale(0.5);
+  }
+  75% {
+    opacity: 1;
+    transform: translate(0%, 20%) scale(0.5);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(0%, 20%) scale(0.005);
+  }
+  96% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hoprCircle {
+  position: absolute;
+  margin-left: -600px;
+  left: 50%;
+  opacity: 0;
+  z-index: 15;
+
+  .container {
+    fill: $hopr_yellow;
+  }
+}
+
+.hoprCircleAnimation {
+  animation-name: animateCircle;
+  transform-origin: center center;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
