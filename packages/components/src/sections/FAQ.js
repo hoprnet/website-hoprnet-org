@@ -159,7 +159,7 @@ const items = [
           hoprnet.org/quest
         </a>
         ? Our jobs are also listed{' '}
-        <a className="text-color-high underline" href="/who-is-HOPR#team">
+        <a className="text-color-high underline" href="/who-is-HOPR#jobs">
           here
         </a>
         .
