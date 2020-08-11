@@ -116,7 +116,7 @@ const NodeHero = props => {
                     tag="a"
                     color="primary"
                     className="mt-32"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeEM5Mmx-R0JAx164gP9X64QMCFUD-azmfZgyOR0wb1bP8PfA/viewform"
+                    href="https://ava.do/checkout/hopr"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
