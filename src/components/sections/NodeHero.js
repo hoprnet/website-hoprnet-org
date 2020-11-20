@@ -47,6 +47,16 @@ const NodeHero = props => {
           </div>
         </div>
       </GenericSection>
+      <div
+        className="banner-node"
+        style={{
+          backgroundImage: 'url(' + require('../assets/images/test.jpg') + ')',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          height: '550px',
+        }}
+      ></div>
       <GenericSection {...evenSections}>
         <div className="center-content">
           <div className="container node-hero-features-tiles-container">
@@ -62,6 +72,7 @@ const NodeHero = props => {
                     />
                   </div>
                 </div>
+
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Run Your Own Metal</h4>
                   <p className="m-0 text-sm">
@@ -77,6 +88,16 @@ const NodeHero = props => {
                     </a>{' '}
                     for details on how to install.
                   </p>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    className="mt-88"
+                    href="https://docs.hoprnet.org/home/getting-started/hopr-chat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    START NOW
+                  </Button>
                 </div>
               </div>
             </div>
