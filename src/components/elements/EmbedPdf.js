@@ -52,12 +52,14 @@ class EmbedPdf extends React.Component {
               <p>
                 Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
               </p>
-              <button type="button" disabled={pageNumber <= 1} onClick={this.previousPage}>
-                Previous
-              </button>
-              <button type="button" disabled={pageNumber >= numPages} onClick={this.nextPage}>
-                Next
-              </button>
+              <div className="aux-for-btn">
+                <button type="button" disabled={pageNumber <= 1} onClick={this.previousPage}>
+                  Previous
+                </button>
+                <button type="button" disabled={pageNumber >= numPages} onClick={this.nextPage}>
+                  Next
+                </button>
+              </div>
             </div>
           </div>
         )}

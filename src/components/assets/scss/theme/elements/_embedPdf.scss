@@ -9,4 +9,33 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  p{
+    text-transform: lowercase;
+    letter-spacing: -1px;
+  }
+}
+
+
+.aux-for-btn{
+  button{
+    margin: 0 0.5rem;
+   border: 0;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: all 350ms ease-in-out;
+   padding: 0.5rem 0;
+   box-sizing: border-box;
+   width: 200px;
+   border-radius: 15px;
+   &:focus{
+     outline: none;
+   }
+   &:hover{
+    color: #fff;
+    background: linear-gradient(270deg, $hopr_dark_blue, $hopr_bright_blue);
+    transition: all 350ms ease-in-out;
+   }
+
+  }
+ 
 }
