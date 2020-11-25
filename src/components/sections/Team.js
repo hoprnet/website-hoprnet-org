@@ -329,6 +329,175 @@ const ProfilesAssociation = () => {
   )
 }
 
+const PeopleBuilding = () => {
+  return (
+    <div className="center-content  ">
+      <div className="container-sm">
+        <h2>People building the HOPR Network</h2>
+      </div>
+      <div className="helper-grid">
+        {/*  */}
+
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/robert_kiel.png')}
+                    alt="steven_nonis"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Robert Kiel</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Co-Founder, Crypto</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/rik_krieger.png')}
+                    alt="steven_nonis"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Rik Krieger, eMBA</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Co-Founder, Commercial</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/meredith_bachma.png')}
+                    alt="meredith_bachma"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Meredith Bachman</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Graphic Designer</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/jose_aguinaga.png')}
+                    alt="jose_aguinaga"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">José Aguinaga</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Head of Engineering</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/steven_nonis.png')}
+                    alt="steven_nonis"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Steven Nonis</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Software Engineer</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/peter_braden.png')}
+                    alt="Peter Braden"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Peter Braden</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Software Engineer</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/the_wandering_editor.png')}
+                    alt="Content Creator"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">The Wandering Editor</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Content Creator</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
+        {/*  */}
+      </div>
+    </div>
+  )
+}
+
 class Team extends React.Component {
   render() {
     const {
@@ -372,7 +541,11 @@ class Team extends React.Component {
             <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" />
             <div className={tilesClasses}>
               {isCompany ? <ProfilesCompany tilesClasses={tilesClasses} /> : <ProfilesAssociation tilesClasses />}
+              <div className="width-full ">
+                <PeopleBuilding />
+              </div>
             </div>
+
             {!isCompany && (
               <div>
                 Do you want to become a member of the association?
