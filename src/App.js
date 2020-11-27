@@ -58,6 +58,7 @@ class App extends React.Component {
               <AppRoute exact path="/support" component={Support} layout={LayoutDefault} />
               <AppRoute exact path="/partners" component={Partners} layout={LayoutDefault} />
               <AppRoute exact path="/setup" component={Setup} layout={LayoutDefault} />
+              <AppRoute exact path="/privacy-policy" component={Pdf('HOPR_privacy.pdf')} layout={LayoutDefault} />
               <AppRoute
                 exact
                 path="/Chinese-Language-Binance-HOPR-Press-Release"
