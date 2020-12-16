@@ -121,7 +121,7 @@ class Clients extends React.Component {
               <li className="reveal-from-top" data-reveal-delay="150">
                 <a href="https://www.swiss-medtech.ch/en" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('@hoprnet/assets/images/partners/swiss_medtech_v2.png')}
+                    src={require('@hoprnet/assets/images/partners/swiss_medtech.png_v2.png')}
                     alt="Swiss Medtech Logo"
                     className={imgClasses}
                     height={24}
