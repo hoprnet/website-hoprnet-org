@@ -103,7 +103,7 @@ class Clients extends React.Component {
                   />
                 </a>
               </li>
-              <li className="reveal-from-top">
+              <li className="reveal-from-top" data-reveal-delay="150">
                 <a
                   href="https://medium.com/hoprnet/privacy-as-dignity-2fcdc4bd14f7"
                   target="_blank"
@@ -112,17 +112,6 @@ class Clients extends React.Component {
                   <Image
                     src={require('@hoprnet/assets/images/partners/sedimentum.png')}
                     alt="Sedimentum Logo"
-                    className={imgClasses}
-                    height={24}
-                    width={124}
-                  />
-                </a>
-              </li>
-              <li className="reveal-from-top" data-reveal-delay="150">
-                <a href="https://www.swiss-medtech.ch/en" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src={require('@hoprnet/assets/images/partners/swiss_medtech.png')}
-                    alt="Swiss Medtech Logo"
                     className={imgClasses}
                     height={24}
                     width={124}
@@ -141,6 +130,19 @@ class Clients extends React.Component {
                     className={imgClasses}
                     height={24 * 0.5}
                     width={124 * 0.5}
+                  />
+                </a>
+              </li>
+            </ul>
+            <ul className="list-reset">
+                <li className="reveal-from-top" data-reveal-delay="150">
+                <a href="https://www.swiss-medtech.ch/en" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={require('@hoprnet/assets/images/partners/swiss_medtech.png_v2.png')}
+                    alt="Swiss Medtech Logo"
+                    className={imgClasses}
+                    height={24}
+                    width={124}
                   />
                 </a>
               </li>
