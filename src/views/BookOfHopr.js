@@ -40,11 +40,25 @@ class BookOfHopr extends React.Component {
     )
 
     return (
-      <section {...props} className={outerClasses}>
-        <div className="container-sm">
-          <div className={innerClasses}>
-            <div className="hero-content">
-              <div className="container-sm">
+      <section
+        {...props}
+        className={outerClasses}
+        style={{
+          height: '1060px',
+          backgroundImage: `url(${require('../components/assets/images/book-of-hopr-cover.jpg')})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div
+          className={innerClasses}
+          style={{
+            height: '100%',
+          }}
+        >
+          <div className="hero-content">
+            <div className="container-sm">
+              <div>
                 <Button
                   color="primary"
                   tag="a"
@@ -52,14 +66,14 @@ class BookOfHopr extends React.Component {
                   target="_blank"
                   className="reveal-from-top"
                   rel="noopener noreferrer"
-                  data-reveal-delay="400"
+                  data-reveal-delay="300"
                 >
                   Download Book Of HOPR
                 </Button>
               </div>
             </div>
           </div>
-        </div>
+        </div>{' '}
       </section>
     )
   }
