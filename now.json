@@ -23,12 +23,6 @@
       "headers": { "Location": "/partners" }
     }
   ],
-  "redirects": [
-    {
-      "source": "/book-of-hopr-pdf",
-      "destination": "/assets/documents/Book_of_HOPR_v1.pdf"
-    }
-  ],
   "github": {
     "silent": true
   }
