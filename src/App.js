@@ -77,6 +77,7 @@ class App extends React.Component {
                 component={Pdf('Japanese Binance HOPR Press Release.pdf')}
                 layout={LayoutDefault}
               />
+              <AppRoute exact path="/book-of-hopr" component={Pdf('Book_of_HOPR_v1.pdf')} layout={LayoutDefault} />
               <AppRoute component={NotFound} layout={LayoutDefault} />
             </Switch>
           )}
