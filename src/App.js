@@ -19,6 +19,7 @@ import Partners from './views/Partners'
 import Setup from './views/Setup'
 import WrapUp from './views/WrapUp'
 import Feedback from './views/Feedback'
+import Funding from './views/Funding'
 import BookOfHopr from './views/BookOfHopr'
 
 const { AppRoute, ScrollReveal, ScrollToTop, insertScript } = utils
@@ -63,6 +64,7 @@ class App extends React.Component {
               <AppRoute exact path="/setup" component={Setup} layout={LayoutDefault} />
               <AppRoute exact path="/wrap-up" component={WrapUp} layout={LayoutDefault} />
               <AppRoute exact path="/feedback" component={Feedback} layout={LayoutDefault} />
+              <AppRoute exact path="/funding" component={Funding} layout={LayoutDefault} />
               <AppRoute exact path="/book-of-hopr" component={BookOfHopr} layout={LayoutDefault} />
               <AppRoute exact path="/privacy-policy" component={Pdf('HOPR_privacy.pdf')} layout={LayoutDefault} />
               <AppRoute
