@@ -213,6 +213,25 @@ const ProfilesCompany = () => {
           </div>
         </div>
       </div>
+
+      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="750">
+        <div className="tiles-item-inner">
+          <div className="team-item-header">
+            <div className="team-item-image mb-24">
+              <Image
+                src={require('@hoprnet/assets/images/team/matthew_edwards.png')}
+                alt="Image of The Matthew Edwards"
+                width={180}
+                height={180}
+              />
+            </div>
+          </div>
+          <div className="team-item-content">
+            <h5 className="team-item-name mt-0 mb-4">Matthew Edwards</h5>
+            <div className="team-item-role text-xs fw-500 mb-8">Community Manager</div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
@@ -338,10 +357,9 @@ const PeopleBuilding = () => {
       <div className="helper-grid">
         {/*  */}
 
-
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/robert-kiel-176878161/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -363,7 +381,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/rikkrieger/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -385,7 +403,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/meredith55/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -407,7 +425,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/jjperezaguinaga/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -429,7 +447,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/stevennonis/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -451,7 +469,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/peterbraden/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -466,14 +484,13 @@ const PeopleBuilding = () => {
             <div className="team-item-content">
               <h5 className="team-item-name mt-0 mb-4">Peter Braden</h5>
               <div className="team-item-role text-xs fw-500 mb-8">Software Engineer</div>
-              {/* <p className="m-0 text-sm"></p> */}
             </div>
           </div>
         </div>
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
+            <span target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -484,15 +501,35 @@ const PeopleBuilding = () => {
                   />
                 </div>
               </div>
-            </a>
+            </span>
             <div className="team-item-content">
               <h5 className="team-item-name mt-0 mb-4">The Wandering Editor</h5>
               <div className="team-item-role text-xs fw-500 mb-8">Content Creator</div>
-              {/* <p className="m-0 text-sm"></p> */}
             </div>
           </div>
         </div>
-        {/*  */}
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <span target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/matthew_edwards.png')}
+                    alt="Community Manager"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </span>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Matthew Edwards</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Community Manager</div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from 'react'
 import { sections } from '../components'
 
-const { Setup } = sections
+const { Feedback } = sections
 
 class View extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Setup  invertColor />
+        <Feedback  invertColor />
       </React.Fragment>
     )
   }

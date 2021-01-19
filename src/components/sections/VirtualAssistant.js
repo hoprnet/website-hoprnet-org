@@ -28,7 +28,7 @@ const HTML = `
 <script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
 <script src="https://unpkg.com/tripetto-services"></script>
 <script>
-var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMWJrU1J6Mk5QS2lsdUZrTDRzZExpVjJ2d2lOelFvSUx0aTNMSXBHdEFycz0iLCJkZWZpbml0aW9uIjoiWDNkT25vRkNmdDA2REIxR3hUZTBDeFE1M2NGVC8zSWtFU01nMDB0eVljYz0iLCJ0eXBlIjoiY29sbGVjdCJ9.STdzJVexzvWMw974nQPFaA9_2anZun_uYzPFQ2Zj1r4" });
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMWJrU1J6Mk5QS2lsdUZrTDRzZExpVjJ2d2lOelFvSUx0aTNMSXBHdEFycz0iLCJkZWZpbml0aW9uIjoiS0tOYWs0N1pQdnFqZG52eU90d1I0Yy9BVGpyRVF1L1hwZHpYcUt0WHBoRT0iLCJ0eXBlIjoiY29sbGVjdCJ9.-_xT6t-jafX9HM3PgExGeyIwxeywtBPtG6aQNkJVd08" });
 
 TripettoAutoscroll.run({
     element: document.body,
@@ -45,7 +45,7 @@ TripettoAutoscroll.run({
 </html>
 `
 
-const SetupHero = props => {
+const VirtualAssistant = props => {
   const [ready, setReady] = useState(false)
   useEffect(() => {
     return () => {
@@ -86,7 +86,7 @@ const SetupHero = props => {
   )
 }
 
-SetupHero.propTypes = propTypes
-SetupHero.defaultProps = defaultProps
+VirtualAssistant.propTypes = propTypes
+VirtualAssistant.defaultProps = defaultProps
 
-export default SetupHero
+export default VirtualAssistant

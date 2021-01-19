@@ -1,0 +1,77 @@
+.component-frame {
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+.loading-frame {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.frameIn {
+  -webkit-animation-name: frameIn;
+  animation-name: frameIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: pulsate;
+  animation-timing-function: ease-in-out;
+  background-color: $hopr_yellow;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 120px;
+  position: absolute;
+  width: 120px;
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  16% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.4);
+  }
+  66% {
+    transform: scale(1.4);
+  }
+  82% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes frameIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes frameIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

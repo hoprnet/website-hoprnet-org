@@ -13,7 +13,15 @@ const defaultProps = {
   ...SectionProps.defaults,
 }
 
-const youtubeIds = ['mcnezYJXuXw', 'wH48dy6PjVg', 'YN8BEF1JIQ0', 'lHQBiZmCLBY', 'kZiCoR1DYSg']
+const youtubeIds = [
+  'rteMxYmd0ow',
+  'vb7mD8dp11Q',
+  'Abmw3AmycCM',
+  'ScTGHJlfGz8',
+  'Ii8KY900vMo',
+  '8iSH_1D2gc8',
+  'V7TQpiWupt8',
+]
 
 const Videos = props => {
   return (

@@ -28,7 +28,7 @@ const HTML = `
 <script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
 <script src="https://unpkg.com/tripetto-services"></script>
 <script>
-var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMWJrU1J6Mk5QS2lsdUZrTDRzZExpVjJ2d2lOelFvSUx0aTNMSXBHdEFycz0iLCJkZWZpbml0aW9uIjoiWDNkT25vRkNmdDA2REIxR3hUZTBDeFE1M2NGVC8zSWtFU01nMDB0eVljYz0iLCJ0eXBlIjoiY29sbGVjdCJ9.STdzJVexzvWMw974nQPFaA9_2anZun_uYzPFQ2Zj1r4" });
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMWJrU1J6Mk5QS2lsdUZrTDRzZExpVjJ2d2lOelFvSUx0aTNMSXBHdEFycz0iLCJkZWZpbml0aW9uIjoiL0pkMDNFMzJmdWozM2tNRXgyUDh3ODlJVTdRRXQyTVNrNGNWODd2UkpRcz0iLCJ0eXBlIjoiY29sbGVjdCJ9.HxyJj2gYagMZH1aQoyqDllsKc1mHsKH_qmibY_ogfLI" });
 
 TripettoAutoscroll.run({
     element: document.body,
@@ -45,7 +45,7 @@ TripettoAutoscroll.run({
 </html>
 `
 
-const SetupHero = props => {
+const Funding = props => {
   const [ready, setReady] = useState(false)
   useEffect(() => {
     return () => {
@@ -86,7 +86,7 @@ const SetupHero = props => {
   )
 }
 
-SetupHero.propTypes = propTypes
-SetupHero.defaultProps = defaultProps
+Funding.propTypes = propTypes
+Funding.defaultProps = defaultProps
 
-export default SetupHero
+export default Funding
