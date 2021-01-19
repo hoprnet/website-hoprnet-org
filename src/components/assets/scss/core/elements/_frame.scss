@@ -26,32 +26,36 @@
   height: 80px;
 }
 .lds-ring div {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: pulsate;
+  animation-timing-function: ease-in-out;
+  background-color: $hopr_yellow;
+  border-radius: 50%;
   box-sizing: border-box;
   display: block;
+  height: 120px;
   position: absolute;
-  width: 64px;
-  height: 64px;
-  margin: 8px;
-  border: 8px solid #000;
-  border-radius: 50%;
-  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #000 transparent transparent transparent;
+  width: 120px;
 }
-.lds-ring div:nth-child(1) {
-  animation-delay: -0.45s;
-}
-.lds-ring div:nth-child(2) {
-  animation-delay: -0.3s;
-}
-.lds-ring div:nth-child(3) {
-  animation-delay: -0.15s;
-}
-@keyframes lds-ring {
+@keyframes pulsate {
   0% {
-    transform: rotate(0deg);
+    transform: scale(1);
+  }
+  16% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.4);
+  }
+  66% {
+    transform: scale(1.4);
+  }
+  82% {
+    transform: scale(1);
   }
   100% {
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 }
 

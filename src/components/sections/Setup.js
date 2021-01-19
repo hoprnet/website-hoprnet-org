@@ -59,9 +59,6 @@ const SetupHero = props => {
           <div className="title">
             <div className="lds-ring">
               <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
             </div>
           </div>
         </div>
