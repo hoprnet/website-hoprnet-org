@@ -7,7 +7,7 @@ class View extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Setup hasBgColor invertColor />
+        <Setup  invertColor />
       </React.Fragment>
     )
   }

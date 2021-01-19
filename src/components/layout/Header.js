@@ -123,17 +123,9 @@ class Header extends React.Component {
                             </Link>
                           </li>
                           <li>
-                            {/* <Link to="/node" onClick={this.closeMenu} style={{ textDecoration: 'none' }}>
+                            <Link to="/setup" onClick={this.closeMenu} style={{ textDecoration: 'none' }}>
                               JOIN TESTNET
-                            </Link> */}
-                            <a
-                              href="http://saentis.hoprnet.org/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              style={{ textDecoration: 'none' }}
-                            >
-                              JOIN TESTNET
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link
