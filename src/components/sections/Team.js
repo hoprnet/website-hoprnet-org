@@ -516,7 +516,7 @@ const PeopleBuilding = () => {
                 <div className="team-item-image mb-24">
                   <Image
                     src={require('@hoprnet/assets/images/team/matthew_edwards.png')}
-                    alt="Content Creator"
+                    alt="Community Manager"
                     width={180}
                     height={180}
                   />
