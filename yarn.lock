@@ -1201,10 +1201,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@hoprnet/assets@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@hoprnet/assets/-/assets-2.0.1.tgz#044a7bd8fb3c10cdf83ad153e50452571e9214ea"
-  integrity sha512-0LMmv+csn0MeBVySXJ5xO9DJFkSGs/qWyilnyaqg5/xTZdxN7n6VLNHFHIn/NbwtH76OVSlrlsJVPFdijWV/ug==
+"@hoprnet/assets@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@hoprnet/assets/-/assets-2.0.2.tgz#0e378dda21b43279085173e5aad88b6553d3da12"
+  integrity sha512-j0k5rgfufChbhUc3mtPJkAWKVO1Kg3zRaGZ179Wg3QOJL2/TfM9FJ7CHIy0WQxuApQNpWeqjkOwum0wcSZCn1w==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
