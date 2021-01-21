@@ -109,7 +109,7 @@ class ContactTabs extends React.Component {
                     </a>
                   </Tab>
                   <Tab tabId="tab-e" className={redirect ? 'is-active' : undefined}>
-                    <a href="http://docs.hoprnet.org/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://medium.com/hoprnet/attention-hopr-node-runners-3ce80ddf67c2" target="_blank" rel="noopener noreferrer">
                       <div className="features-tabs-tab-image mb-12 reveal-fade" data-reveal-offset="250">
                         <Image
                           src={require('../assets/images/icons/with-blue-stroke/outdoors-mining.png')}
