@@ -174,28 +174,6 @@ const ProfilesCompany = () => {
 
       <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="750">
         <div className="tiles-item-inner">
-          <a href="https://www.linkedin.com/in/kevinleu/" target="_blank" rel="noopener noreferrer">
-            <div className="team-item-header">
-              <div className="team-item-image mb-24">
-                <Image
-                  src={require('@hoprnet/assets/images/team/kevin-leu.png')}
-                  alt="Image of Kevin Leu"
-                  width={180}
-                  height={180}
-                />
-              </div>
-            </div>
-          </a>
-          <div className="team-item-content">
-            <h5 className="team-item-name mt-0 mb-4">Kevin Leu</h5>
-            <div className="team-item-role text-xs fw-500 mb-8">Head of Marketing</div>
-            <p className="m-0 text-sm"></p>
-          </div>
-        </div>
-      </div>
-
-      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="750">
-        <div className="tiles-item-inner">
           <div className="team-item-header">
             <div className="team-item-image mb-24">
               <Image
@@ -239,29 +217,7 @@ const ProfilesCompany = () => {
 const ProfilesAssociation = () => {
   return (
     <>
-      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
-        <div className="tiles-item-inner">
-          <div className="team-item-header">
-            <a href="https://www.linkedin.com/in/scbuergel/" target="_blank" rel="noopener noreferrer">
-              <div className="team-item-image mb-24">
-                <Image
-                  src={require('@hoprnet/assets/images/team/sebastian_burgel.png')}
-                  alt="Board member 01"
-                  width={180}
-                  height={180}
-                />
-              </div>
-            </a>
-          </div>
-          <div className="team-item-content">
-            <h5 className="team-item-name mt-0 mb-4">Dr. Sebastian Bürgel</h5>
-            <div className="team-item-role text-xs fw-500 mb-8">President</div>
-            {/* <p className="m-0 text-sm"></p> */}
-          </div>
-        </div>
-      </div>
-
-      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="150">
+      {/* <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="150">
         <div className="tiles-item-inner">
           <a href="https://www.linkedin.com/in/cluchsinger/" target="_blank" rel="noopener noreferrer">
             <div className="team-item-header">
@@ -278,12 +234,12 @@ const ProfilesAssociation = () => {
           <div className="team-item-content">
             <h5 className="team-item-name mt-0 mb-4">Dr. Catrina Luchsinger</h5>
             <div className="team-item-role text-xs fw-500 mb-8">Board Member</div>
-            {/* <p className="m-0 text-sm"></p> */}
+            <p className="m-0 text-sm"></p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+      {/* <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
         <div className="tiles-item-inner">
           <a href="https://www.linkedin.com/in/ronald-kogens/" target="_blank" rel="noopener noreferrer">
             <div className="team-item-header">
@@ -300,10 +256,10 @@ const ProfilesAssociation = () => {
           <div className="team-item-content">
             <h5 className="team-item-name mt-0 mb-4">Ronald Kogens</h5>
             <div className="team-item-role text-xs fw-500 mb-8">Board Member</div>
-            {/* <p className="m-0 text-sm"></p> */}
+            <p className="m-0 text-sm"></p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {!isCompany && (
         <div className="mt-24" style={{ width: '100%' }}>
@@ -356,6 +312,28 @@ const PeopleBuilding = () => {
       </div>
       <div className="helper-grid">
         {/*  */}
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <div className="team-item-header">
+              <a href="https://www.linkedin.com/in/scbuergel/" target="_blank" rel="noopener noreferrer">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/sebastian_burgel.png')}
+                    alt="Image of Dr. Sebastian Bürgel"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </a>
+            </div>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Dr. Sebastian Bürgel</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Founder</div>
+              {/* <p className="m-0 text-sm"></p> */}
+            </div>
+          </div>
+        </div>
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
@@ -575,12 +553,11 @@ class Team extends React.Component {
       <section {...props} className={outerClasses}>
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" />
             <div className={tilesClasses}>
-              {isCompany ? <ProfilesCompany tilesClasses={tilesClasses} /> : <ProfilesAssociation tilesClasses />}
               <div className="width-full ">
                 <PeopleBuilding />
               </div>
+              {isCompany ? <ProfilesCompany tilesClasses={tilesClasses} /> : <ProfilesAssociation tilesClasses />}
             </div>
 
             {!isCompany && (
