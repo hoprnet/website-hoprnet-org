@@ -468,7 +468,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <span target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -479,7 +479,7 @@ const PeopleBuilding = () => {
                   />
                 </div>
               </div>
-            </a>
+            </span>
             <div className="team-item-content">
               <h5 className="team-item-name mt-0 mb-4">Reinhard Schmidt</h5>
               <div className="team-item-role text-xs fw-500 mb-8">Graphic Designer</div>
@@ -531,7 +531,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/simona-fontanella/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
@@ -552,7 +552,7 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/menglu/" target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
                   <Image
