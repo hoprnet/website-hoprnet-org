@@ -468,6 +468,27 @@ const PeopleBuilding = () => {
 
         <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
           <div className="tiles-item-inner">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/reinhard_schmidt.jpg')}
+                    alt="Reinhard Schmidt"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Reinhard Schmidt</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Graphic Designer</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
             <span target="_blank" rel="noopener noreferrer">
               <div className="team-item-header">
                 <div className="team-item-image mb-24">
@@ -504,6 +525,48 @@ const PeopleBuilding = () => {
             <div className="team-item-content">
               <h5 className="team-item-name mt-0 mb-4">Matthew Edwards</h5>
               <div className="team-item-role text-xs fw-500 mb-8">Community Manager</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/simona_fontanella.png')}
+                    alt="Simona Fontanella"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Simona Fontanella</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Operations Manager</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/menglu_wang.png')}
+                    alt="Menglu Wang"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Menglu Wang</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Chinese Community Manager</div>
             </div>
           </div>
         </div>
