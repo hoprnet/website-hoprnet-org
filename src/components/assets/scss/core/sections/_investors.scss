@@ -23,6 +23,11 @@
 
   li {
     padding: $investors-items--padding-v $investors-items--padding-h;
+    width: calc(100% * (1/3));
+  }
+
+  li img {
+    margin: auto;
   }
 }
 
