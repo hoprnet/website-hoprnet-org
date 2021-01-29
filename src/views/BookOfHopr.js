@@ -62,7 +62,7 @@ class BookOfHopr extends React.Component {
                 <Button
                   color="primary"
                   tag="a"
-                  href={require(`../components/assets/documents/Book_of_HOPR_v1.pdf`)}
+                  href={require(`../components/assets/documents/Book_of_HOPR_v1-1.pdf`)}
                   target="_blank"
                   className="reveal-from-top"
                   rel="noopener noreferrer"
