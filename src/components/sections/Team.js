@@ -592,6 +592,27 @@ const PeopleBuilding = () => {
           </div>
         </div>
 
+        <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+          <div className="tiles-item-inner">
+            <a href="https://www.linkedin.com/in/qianchenyu/" target="_blank" rel="noopener noreferrer">
+              <div className="team-item-header">
+                <div className="team-item-image mb-24">
+                  <Image
+                    src={require('@hoprnet/assets/images/team/qianchen_yu.png')}
+                    alt="Qianchen “Q” Yu"
+                    width={180}
+                    height={180}
+                  />
+                </div>
+              </div>
+            </a>
+            <div className="team-item-content">
+              <h5 className="team-item-name mt-0 mb-4">Qianchen “Q” Yu</h5>
+              <div className="team-item-role text-xs fw-500 mb-8">Decentralized Technology Architect</div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
