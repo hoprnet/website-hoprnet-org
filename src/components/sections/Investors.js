@@ -67,6 +67,17 @@ class Investors extends React.Component {
                   />
                 </a>
               </li>
+              <li className="reveal-from-bottom">
+                <a href="https://stakely.io/" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={require('@hoprnet/assets/images/partners/stakely.png')}
+                    alt="Stakely"
+                    className={imgClasses}
+                    width={124}
+                    height={24}
+                  />
+                </a>
+              </li>
               <li className="reveal-from-bottom" data-reveal-delay="150">
                 <a href="https://www.sparkdigitalcapital.com/" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -100,17 +111,17 @@ class Investors extends React.Component {
                   />
                 </a>
               </li>
-              {/* <li className="reveal-from-bottom" data-reveal-delay="150">
-                <a href="https://www.bitcoinsuisse.com/" target="_blank" rel="noopener noreferrer">
+              <li className="reveal-from-bottom" data-reveal-delay="150">
+                <a href="https://www.vendetta.capital/" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={require('@hoprnet/assets/images/partners/bitcoinsuisse.png')}
-                    alt="Bitcoin Suisse Logo"
+                    src={require('@hoprnet/assets/images/partners/vendetta_capital.png')}
+                    alt="Vendetta Capital Logo"
                     className={imgClasses}
                     width={124}
                     height={24}
                   />
                 </a>
-              </li> */}
+              </li>
             </ul>
             {showQuestion ? (
               <div className="question">

@@ -10,7 +10,7 @@ class HOPR extends React.Component {
         <AboutUs id="about" />
         <Governance id="governance" hasBgColor invertColor />
         <Clients id="clients" showQuestion />
-        {/* <Investors id="investors" hasBgColor invertColor showQuestion /> */}
+        <Investors id="investors" hasBgColor showQuestion />
         <Token id="token" hasBgColor invertColor />
         <Values id="values" />
         <Team id="team" hasBgColor invertColor />
