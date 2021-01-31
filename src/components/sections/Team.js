@@ -292,7 +292,7 @@ const ProfilesAssociation = () => {
             <div className="team-item-role text-xs fw-500 mb-8">
               <ul>
                 <li>Avado, CH</li>
-                <li>Empathy PR, US</li>
+                <li>KITSCH-BENT LLC, US</li>
                 <li>S.N. NONI CORPORATION LTD, CY</li>
                 <li>The Wandering Editor, UK</li>
               </ul>
