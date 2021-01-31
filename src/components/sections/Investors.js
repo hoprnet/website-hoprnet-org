@@ -68,7 +68,7 @@ class Investors extends React.Component {
                 </a>
               </li>
               <li className="reveal-from-bottom">
-                <a href="https://stakely.io/" target="_blank" rel="noopener noreferrer">
+                <a href="https://stakely.vc/" target="_blank" rel="noopener noreferrer">
                   <Image
                     src={require('@hoprnet/assets/images/partners/stakely.png')}
                     alt="Stakely"
